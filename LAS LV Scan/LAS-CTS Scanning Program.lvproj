@@ -30,6 +30,8 @@
 		<Item Name="K6514_SimpleVoltageReader.vi" Type="VI" URL="../K6514_SimpleVoltageReader.vi"/>
 		<Item Name="K6514_VISAConfig.vi" Type="VI" URL="../K6514_VISAConfig.vi"/>
 		<Item Name="K6514_VISAQuery.vi" Type="VI" URL="../K6514_VISAQuery.vi"/>
+		<Item Name="LAS-CTS_2dScan.vi" Type="VI" URL="../LAS-CTS_2dScan.vi"/>
+		<Item Name="LAS-CTS_ControlProgram.vi" Type="VI" URL="../LAS-CTS_ControlProgram.vi"/>
 		<Item Name="LAS-CTS_LaserEnergyReader.vi" Type="VI" URL="../LAS-CTS_LaserEnergyReader.vi"/>
 		<Item Name="LAS-CTS_SingleSpotMonitor.vi" Type="VI" URL="../LAS-CTS_SingleSpotMonitor.vi"/>
 		<Item Name="LAS-CTS_TargetScanner.vi" Type="VI" URL="../LAS-CTS_TargetScanner.vi"/>
@@ -45,6 +47,7 @@
 		<Item Name="QSPARK_fireLaser.vi" Type="VI" URL="../QSPARK_fireLaser.vi"/>
 		<Item Name="QSPARK_laserStatusMonitor.vi" Type="VI" URL="../QSPARK_laserStatusMonitor.vi"/>
 		<Item Name="QSPARK_setBatchPulseNumber.vi" Type="VI" URL="../QSPARK_setBatchPulseNumber.vi"/>
+		<Item Name="QSPARK_setBatchPulseNumber2.vi" Type="VI" URL="../QSPARK_setBatchPulseNumber2.vi"/>
 		<Item Name="QSPARK_setRepRate.vi" Type="VI" URL="../QSPARK_setRepRate.vi"/>
 		<Item Name="RemoveTermChar.vi" Type="VI" URL="../RemoveTermChar.vi"/>
 		<Item Name="SIUnitConverter.vi" Type="VI" URL="../SIUnitConverter.vi"/>
