@@ -42,11 +42,9 @@ void loop() {
 	    delay(100);
     }
     if (cmd.substring(0, 4) == "HOME") {
-      Serial.print("FALSE\n");
       while (digitalRead(2) == 0) {
-        myStepper.step(-intervalSteps);
+        myStepper.step(intervalSteps);
       }
-      Serial.print("TRUE\n");
     }
 
     cmd="";
