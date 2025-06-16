@@ -46,6 +46,10 @@
 		<Item Name="NDMotor_MoveForward.vi" Type="VI" URL="../NDMotor_MoveForward.vi"/>
 		<Item Name="NDMotor_MvBkwTest.vi" Type="VI" URL="../NDMotor_MvBkwTest.vi"/>
 		<Item Name="NDMotor_MvFwdTest.vi" Type="VI" URL="../NDMotor_MvFwdTest.vi"/>
+		<Item Name="NDMotor_QueryRPM.vi" Type="VI" URL="../NDMotor_QueryRPM.vi"/>
+		<Item Name="NDMotor_SetRPM.vi" Type="VI" URL="../NDMotor_SetRPM.vi"/>
+		<Item Name="NDMotor_SetTransmission.vi" Type="VI" URL="../NDMotor_SetTransmission.vi"/>
+		<Item Name="NDMotor_TransToSteps.vi" Type="VI" URL="../NDMotor_TransToSteps.vi"/>
 		<Item Name="NDMotor_VISAConfig.vi" Type="VI" URL="../NDMotor_VISAConfig.vi"/>
 		<Item Name="NDMotor_VISAQuery.vi" Type="VI" URL="../NDMotor_VISAQuery.vi"/>
 		<Item Name="QSPARK_connectLaser.vi" Type="VI" URL="../QSPARK_connectLaser.vi"/>
@@ -64,6 +68,7 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
