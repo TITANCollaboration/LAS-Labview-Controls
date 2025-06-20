@@ -13,7 +13,7 @@ String cmd;
 int intervalSteps = 10;
 int mvtime;
 int maxSteps = 700;
-int homeOffset = 10;
+int homeOffset = 50;
 int rpm = 5;
 
 void setup() {
@@ -43,6 +43,13 @@ void loop() {
       Serial.print(String(rpm)+"\n");
     }
 
+    if (cmd.substring(0, 4) == "HOFF") {
+      if (cmd.substring(4,15) != "?") {
+        homeOffset = cmd.substring(4,15).toInt();
+      }
+      Serial.print(String(homeOffset)+"\n");
+    }
+
     if (cmd.substring(0, 4) == "MOVF") {
       mvtime = ((cmd.substring(4, 15).toFloat()/stepsPerRevolution)/rpm)*60*1000;
       Serial.print(cmd.substring(4, 15)+","+mvtime+"\n");
@@ -59,10 +66,16 @@ void loop() {
       mvtime = (((float(maxSteps)+float(homeOffset))/stepsPerRevolution)/rpm)*60*1000;
       Serial.print(String(homeOffset)+","+mvtime+"\n");
       while (digitalRead(2) == 1) {       
-        myStepper.step(-intervalSteps);
+        myStepper.step(intervalSteps);
       }
-      myStepper.step(homeOffset);
+      myStepper.step(-homeOffset);
       delay(((float(homeOffset)/stepsPerRevolution)/rpm)*60*1000);
+    }
+    if (cmd.substring(0, 4) == "TEST") {
+      for (int i = 0; i<=10; i++) {
+        Serial.println(String(digitalRead(2)));
+        delay(250);
+      }
     }
 
     cmd="";
