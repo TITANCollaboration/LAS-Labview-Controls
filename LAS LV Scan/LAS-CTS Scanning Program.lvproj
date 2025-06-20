@@ -32,8 +32,10 @@
 		<Item Name="K6514_VISAQuery.vi" Type="VI" URL="../K6514_VISAQuery.vi"/>
 		<Item Name="LAS-CTS_2dScan.vi" Type="VI" URL="../LAS-CTS_2dScan.vi"/>
 		<Item Name="LAS-CTS_ControlProgram.vi" Type="VI" URL="../LAS-CTS_ControlProgram.vi"/>
+		<Item Name="LAS-CTS_LaserEnergyHistogram.vi" Type="VI" URL="../LAS-CTS_LaserEnergyHistogram.vi"/>
 		<Item Name="LAS-CTS_LaserEnergyReader.vi" Type="VI" URL="../LAS-CTS_LaserEnergyReader.vi"/>
 		<Item Name="LAS-CTS_NDFilterRepeatability.vi" Type="VI" URL="../LAS-CTS_NDFilterRepeatability.vi"/>
+		<Item Name="LAS-CTS_NDFilterRepeatabilityByStep.vi" Type="VI" URL="../LAS-CTS_NDFilterRepeatabilityByStep.vi"/>
 		<Item Name="LAS-CTS_NDFilterScan.vi" Type="VI" URL="../LAS-CTS_NDFilterScan.vi"/>
 		<Item Name="LAS-CTS_NDFilterScanBackwards.vi" Type="VI" URL="../LAS-CTS_NDFilterScanBackwards.vi"/>
 		<Item Name="LAS-CTS_NDFilterScanCharge.vi" Type="VI" URL="../LAS-CTS_NDFilterScanCharge.vi"/>
